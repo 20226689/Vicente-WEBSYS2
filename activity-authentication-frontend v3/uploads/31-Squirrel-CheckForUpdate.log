@@ -1,0 +1,15 @@
+﻿[04/10/25 14:47:46] info: Program: Starting Squirrel Updater: --checkForUpdate https://dl.pstmn.io/update/WIN64/11.64.6/stable?installationId=7b28449d-b66d-43ca-a9a3-bda66013de80&userId=48777423&syncEnabled=true&teamPlan=sync-free-3-trial&teamId=10425930
+[04/10/25 14:47:46] info: Program: Fetching update information, downloading from https://dl.pstmn.io/update/WIN64/11.64.6/stable?installationId=7b28449d-b66d-43ca-a9a3-bda66013de80&userId=48777423&syncEnabled=true&teamPlan=sync-free-3-trial&teamId=10425930
+[04/10/25 14:47:47] info: CheckForUpdateImpl: Generated new staging user ID: ac2abed0-1fa9-516f-8391-67d1461fa19d
+[04/10/25 14:47:47] info: CheckForUpdateImpl: Downloading RELEASES file from https://dl.pstmn.io/update/WIN64/11.64.6/stable?installationId=7b28449d-b66d-43ca-a9a3-bda66013de80&userId=48777423&syncEnabled=true&teamPlan=sync-free-3-trial&teamId=10425930
+[04/10/25 14:47:47] info: FileDownloader: Downloading url: https://dl.pstmn.io/update/WIN64/11.64.6/stable/RELEASES?installationId=7b28449d-b66d-43ca-a9a3-bda66013de80&userId=48777423&syncEnabled=true&teamPlan=sync-free-3-trial&teamId=10425930&id=Postman&localVersion=11.64.6&arch=amd64
+[04/10/25 14:47:48] warn: UpdateInfo: Couldn't get release notes for:Postman-win64-11.65.4-full.nupkg: System.IO.FileNotFoundException: Could not find file 'C:\Users\User\AppData\Local\Postman\packages\Postman-win64-11.65.4-full.nupkg'.
+File name: 'C:\Users\User\AppData\Local\Postman\packages\Postman-win64-11.65.4-full.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   at NuGet.ZipPackage.EnsureManifest()
+   at Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   at Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[04/10/25 14:47:49] info: Program: Finished Squirrel Updater

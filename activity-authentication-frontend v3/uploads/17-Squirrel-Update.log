@@ -1,0 +1,44 @@
+﻿[04/10/25 14:47:49] info: Program: Starting Squirrel Updater: --update https://dl.pstmn.io/update/WIN64/11.64.6/stable?installationId=7b28449d-b66d-43ca-a9a3-bda66013de80&userId=48777423&syncEnabled=true&teamPlan=sync-free-3-trial&teamId=10425930
+[04/10/25 14:47:49] info: Program: Starting update, downloading from https://dl.pstmn.io/update/WIN64/11.64.6/stable?installationId=7b28449d-b66d-43ca-a9a3-bda66013de80&userId=48777423&syncEnabled=true&teamPlan=sync-free-3-trial&teamId=10425930
+[04/10/25 14:47:49] info: Program: About to update to: C:\Users\User\AppData\Local\Postman
+[04/10/25 14:47:49] info: CheckForUpdateImpl: Using existing staging user ID: ac2abed0-1fa9-516f-8391-67d1461fa19d
+[04/10/25 14:47:49] info: CheckForUpdateImpl: Downloading RELEASES file from https://dl.pstmn.io/update/WIN64/11.64.6/stable?installationId=7b28449d-b66d-43ca-a9a3-bda66013de80&userId=48777423&syncEnabled=true&teamPlan=sync-free-3-trial&teamId=10425930
+[04/10/25 14:47:49] info: FileDownloader: Downloading url: https://dl.pstmn.io/update/WIN64/11.64.6/stable/RELEASES?installationId=7b28449d-b66d-43ca-a9a3-bda66013de80&userId=48777423&syncEnabled=true&teamPlan=sync-free-3-trial&teamId=10425930&id=Postman&localVersion=11.64.6&arch=amd64
+[04/10/25 14:47:50] info: FileDownloader: Downloading file: https://dl.pstmn.io/download/11.65.4/Postman-win64-11.65.4-full.nupkg
+[04/10/25 14:48:28] info: ApplyReleasesImpl: Writing files to app directory: C:\Users\User\AppData\Local\Postman\app-11.65.4
+[04/10/25 14:48:31] info: LogHost: Rigging execution stub for Postman_ExecutionStub.exe to C:\Users\User\AppData\Local\Postman\Postman.exe
+[04/10/25 14:48:34] info: ApplyReleasesImpl: Squirrel Enabled Apps: []
+[04/10/25 14:48:34] warn: ApplyReleasesImpl: No apps are marked as Squirrel-aware! Going to run them all
+[04/10/25 14:48:34] info: ApplyReleasesImpl: About to create shortcuts for Postman.exe, rootAppDir C:\Users\User\AppData\Local\Postman\
+[04/10/25 14:48:34] info: ApplyReleasesImpl: Creating shortcut for Postman.exe => C:\Users\User\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk
+[04/10/25 14:48:34] info: ApplyReleasesImpl: About to save shortcut: C:\Users\User\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk (target C:\Users\User\AppData\Local\Postman\Postman.exe, workingDir C:\Users\User\AppData\Local\Postman\app-11.65.4, args , toastActivatorCSLID d56d0ae8-2c2a-5b45-bd3b-9973bc69da9e)
+[04/10/25 14:48:34] info: ApplyReleasesImpl: Creating shortcut for Postman.exe => C:\Users\User\OneDrive\Desktop\Postman.lnk
+[04/10/25 14:48:34] info: ApplyReleasesImpl: About to save shortcut: C:\Users\User\OneDrive\Desktop\Postman.lnk (target C:\Users\User\AppData\Local\Postman\Postman.exe, workingDir C:\Users\User\AppData\Local\Postman\app-11.65.4, args , toastActivatorCSLID d56d0ae8-2c2a-5b45-bd3b-9973bc69da9e)
+[04/10/25 14:48:34] info: ApplyReleasesImpl: Examining Pin: File Explorer (2).lnk
+[04/10/25 14:48:34] info: ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+[04/10/25 14:48:34] info: ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+[04/10/25 14:48:34] info: ApplyReleasesImpl: Examining Pin: HoYoPlay.lnk
+[04/10/25 14:48:34] info: ApplyReleasesImpl: Examining Pin: IntelliJ IDEA.lnk
+[04/10/25 14:48:34] info: ApplyReleasesImpl: Examining Pin: launcher.lnk
+[04/10/25 14:48:34] info: ApplyReleasesImpl: Examining Pin: NIKKE.lnk
+[04/10/25 14:48:34] info: ApplyReleasesImpl: Examining Pin: Punishing Gray Raven.lnk
+[04/10/25 14:48:34] info: ApplyReleasesImpl: Examining Pin: PyCharm Community Edition 2022.1.lnk
+[04/10/25 14:48:35] info: ApplyReleasesImpl: Examining Pin: Steam.lnk
+[04/10/25 14:48:35] info: ApplyReleasesImpl: Examining Pin: Wuthering Waves.lnk
+[04/10/25 14:48:35] info: ApplyReleasesImpl: Starting fixPinnedExecutables
+[04/10/25 14:48:35] info: ApplyReleasesImpl: Examining Pin: File Explorer (2).lnk
+[04/10/25 14:48:35] info: ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+[04/10/25 14:48:35] info: ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+[04/10/25 14:48:35] info: ApplyReleasesImpl: Examining Pin: HoYoPlay.lnk
+[04/10/25 14:48:35] info: ApplyReleasesImpl: Examining Pin: IntelliJ IDEA.lnk
+[04/10/25 14:48:35] info: ApplyReleasesImpl: Examining Pin: launcher.lnk
+[04/10/25 14:48:35] info: ApplyReleasesImpl: Examining Pin: NIKKE.lnk
+[04/10/25 14:48:35] info: ApplyReleasesImpl: Examining Pin: Punishing Gray Raven.lnk
+[04/10/25 14:48:35] info: ApplyReleasesImpl: Examining Pin: PyCharm Community Edition 2022.1.lnk
+[04/10/25 14:48:35] info: ApplyReleasesImpl: Examining Pin: Steam.lnk
+[04/10/25 14:48:35] info: ApplyReleasesImpl: Examining Pin: Wuthering Waves.lnk
+[04/10/25 14:48:35] info: ApplyReleasesImpl: Fixing up tray icons
+[04/10/25 14:48:35] info: ApplyReleasesImpl: cleanDeadVersions: checking for version 11.65.4
+[04/10/25 14:48:35] info: ApplyReleasesImpl: cleanDeadVersions: exclude current version folder app-11.64.6
+[04/10/25 14:48:35] info: ApplyReleasesImpl: cleanDeadVersions: exclude new version folder app-11.65.4
+[04/10/25 14:48:35] info: Program: Finished Squirrel Updater
